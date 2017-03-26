@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/lru-cache.png?downloads=true)](https://www.npmjs.com/package/lru-cache)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-lru_cache_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-lru-cache/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-lru-cache_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-lru-cache/build..beta..travis-ci.org/apidoc.html)
 
 ![package-listing](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screen-capture.npmPackageListing.svg)
 
