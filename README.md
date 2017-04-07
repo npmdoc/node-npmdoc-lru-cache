@@ -1,11 +1,13 @@
-# api documentation for  [lru-cache (v4.0.2)](https://github.com/isaacs/node-lru-cache#readme)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-lru-cache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-lru-cache)
+# api documentation for  [lru-cache (v4.0.2)](https://github.com/isaacs/node-lru-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-lru-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-lru-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-lru-cache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-lru-cache)
 #### A cache object that deletes the least-recently-used items.
 
 [![NPM](https://nodei.co/npm/lru-cache.png?downloads=true)](https://www.npmjs.com/package/lru-cache)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-lru_cache_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-lru-cache/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-lru-cache%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-lru-cache/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
