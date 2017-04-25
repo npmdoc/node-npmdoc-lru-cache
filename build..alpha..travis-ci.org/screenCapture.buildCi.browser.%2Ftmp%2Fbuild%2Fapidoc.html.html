@@ -54,12 +54,65 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.lru-cache">module lru-cache</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.lru-cache.lru-cache">
+            function <span class="apidocSignatureSpan"></span>lru-cache
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.lru-cache" id="apidoc.module.lru-cache">module lru-cache</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.lru-cache.lru-cache" id="apidoc.element.lru-cache.lru-cache">
+        function <span class="apidocSignatureSpan"></span>lru-cache
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LRUCache(options) {
+  if (!(this instanceof LRUCache)) {
+    return new LRUCache(options)
+  }
+
+  if (typeof options === 'number') {
+    options = { max: options }
+  }
+
+  if (!options) {
+    options = {}
+  }
+
+  var max = priv(this, 'max', options.max)
+  // Kind of weird to have a default max of Infinity, but oh well.
+  if (!max ||
+      !(typeof max === 'number') ||
+      max &lt;= 0) {
+    priv(this, 'max', Infinity)
+  }
+
+  var lc = options.length || naiveLength
+  if (typeof lc !== 'function') {
+    lc = naiveLength
+  }
+  priv(this, 'lengthCalculator', lc)
+
+  priv(this, 'allowStale', options.stale || false)
+  priv(this, 'maxAge', options.maxAge || 0)
+  priv(this, 'dispose', options.dispose)
+  this.reset()
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
