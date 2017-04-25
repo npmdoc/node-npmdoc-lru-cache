@@ -1,9 +1,14 @@
-# api documentation for  [lru-cache (v4.0.2)](https://github.com/isaacs/node-lru-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-lru-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-lru-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-lru-cache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-lru-cache)
+# npmdoc-lru-cache
+
+#### basic api documentation for  [lru-cache (v4.0.2)](https://github.com/isaacs/node-lru-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-lru-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-lru-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-lru-cache.svg)](https://travis-ci.org/npmdoc/node-npmdoc-lru-cache)
+
 #### A cache object that deletes the least-recently-used items.
 
-[![NPM](https://nodei.co/npm/lru-cache.png?downloads=true)](https://www.npmjs.com/package/lru-cache)
+[![NPM](https://nodei.co/npm/lru-cache.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/lru-cache)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-lru-cache%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-lru-cache/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-lru-cache/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-lru-cache/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-lru-cache/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-lru-cache/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Isaac Z. Schlueter",
-        "email": "i@izs.me"
+        "name": "Isaac Z. Schlueter"
     },
     "bugs": {
         "url": "https://github.com/isaacs/node-lru-cache/issues"
@@ -51,17 +55,14 @@
     "main": "lib/lru-cache.js",
     "maintainers": [
         {
-            "name": "isaacs",
-            "email": "isaacs@npmjs.com"
+            "name": "isaacs"
         },
         {
-            "name": "othiym23",
-            "email": "ogd@aoaioxxysz.net"
+            "name": "othiym23"
         }
     ],
     "name": "lru-cache",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/isaacs/node-lru-cache.git"
@@ -70,19 +71,10 @@
         "posttest": "standard test/*.js lib/*.js",
         "test": "tap test --100"
     },
-    "version": "4.0.2"
+    "version": "4.0.2",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module lru-cache](#apidoc.module.lru-cache)
-
-
-
-# <a name="apidoc.module.lru-cache"></a>[module lru-cache](#apidoc.module.lru-cache)
 
 
 
